@@ -1,17 +1,4 @@
-import { NavigationBar } from "@/components/NavigationBar";
-import { Sidebar } from "@/components/Sidebar";
-import { ThemeModeToggle } from "@/components/ThemeModeToggle";
-
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
+import NotificationAllowComponent from "@/components/NotificationAllowComponent";
 
 export default function Home() {
   return (
@@ -22,6 +9,8 @@ export default function Home() {
         <Sidebar />
         <ThemeModeToggle />
       </div> */}
+
+      <NotificationAllowComponent />
     </>
   );
 }
